@@ -11,7 +11,7 @@ ninja.data = [{
     },
   },{id: "nav-resume",
           title: "resume",
-          description: "Happy to expand on anything over Zoom or coffee (or both).",
+          description: "Let&#39;s chat over Zoom or coffee (or both).",
           section: "Navigation",
           handler: () => {
             window.location.href = "/resume/";
