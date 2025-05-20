@@ -148,14 +148,19 @@
   ],
   "references": [
     {
-      "name": "",
+      "name": "Matt Cherouny",
       "icon": "fa-solid fa-laptop",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
+      "reference": "Staff Manufacturing Systems Engineer at Tesla fa-paper-plane matt.cherouny@gmail.com"
     },
     {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-thumbtack",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
+      "name": "Brett Couture",
+      "icon": "fa-solid  fa-lightbulb-o",
+      "reference": "Chief Technology Officer at Rediker fa-paper-plane brett.couture@gmail.com"
+    },
+    {
+      "name": "Rick Timkovich",
+      "icon": "fa-solid fa-pencil-square-o",
+      "reference": "Sr. Technical Writer at AWS fa-paper-plane rtimkovi@amazon.com"
     }
   ]
 }
