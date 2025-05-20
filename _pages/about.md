@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Senior Technical Writer at AWS Well-Architected
+subtitle: Senior Technical Writer
 
 profile:
   align: right
@@ -26,4 +26,8 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-under construction
+Senior-level technical writer with 10+ years of experience in agile, fast-paced environments. Adept at communicating technical concepts
+clearly and precisely. Able to quickly learn new technologies and subject matters and communicates them for multivariate audiences.
+Experience with docs-as-code and CI/CD documentation ideologies. Always curious about ways to improve and grow.
+
+Sounds like someone you want on your team? Let's chat! We can talk shop or just wax poetic about how much we like our pets.

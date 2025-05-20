@@ -11,7 +11,7 @@ contact_note: >
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
 footer_text: >
-  Experienced, motivated technical writer focused on clear, user-friendly documentation in docs-as-code environments.
+  Open to long-term or freelance remote work.
 keywords: technical-writer, technical-writing, stewart-matzek, stewart-matzek-portfolio # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: 📝 # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
@@ -40,16 +40,16 @@ repo_trophies:
 # will use title and url fields
 # Take a look to https://github.com/jekyll/jekyll-feed for more customization
 
-rss_icon: true
+rss_icon: false
 
 # -----------------------------------------------------------------------------
 # Layout
 # -----------------------------------------------------------------------------
 
 navbar_fixed: true
-footer_fixed: true
+footer_fixed: false
 search_enabled: false
-socials_in_search: true
+socials_in_search: false
 posts_in_search: false
 bib_search: false
 
