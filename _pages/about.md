@@ -30,4 +30,4 @@ Senior-level technical writer with 10+ years of experience in agile, fast-paced 
 clearly and precisely. Able to quickly learn new technologies and subject matters and communicates them for multivariate audiences.
 Experience with docs-as-code and CI/CD documentation ideologies. Always curious about ways to improve and grow.
 
-Sounds like someone you want on your team? Let's chat! We can talk shop or just wax poetic about how much we like our pets.
+Sound like someone you want on your team? Hit me up! We can talk shop or just wax poetic about how much we like our pets.
