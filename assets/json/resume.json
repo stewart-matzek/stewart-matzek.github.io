@@ -26,7 +26,7 @@
     {
       "name": "Larkin Communication Consulting",
       "position": "Freelance Technical Writer",
-      "url": "",
+      "url": "http://www.larkin.biz/",
       "startDate": "2014",
       "endDate": "2017",
       "summary": "Rewrote and redesigned industrial and manufacturing safety manuals for clarity, concision, and improved safety language.",
@@ -35,7 +35,7 @@
     {
       "name": "Tesla",
       "position": "Technical Writer",
-      "url": "",
+      "url": "https://www.tesla.com/",
       "startDate": "2017",
       "endDate": "2019",
       "summary": "Created and updated robotics maintenance documentation, internal and external factory management software guides, and training presentations for a variety of audiences from line workers to managers.",
@@ -44,7 +44,7 @@
     {
       "name": "Digital River",
       "position": "Technical Writer",
-      "url": "",
+      "url": "https://docs.digitalriver.com/home",
       "startDate": "2019",
       "endDate": "2021",
       "summary": "Wrote and maintained suite of API and software documentation for an ecommerce product suite. Presented and implemented large-scale overhaul of developer experience for an API-first, headless ecommerce documentation site. Researched, applied, and migrated documentation into new docs system.",
@@ -53,7 +53,7 @@
     {
       "name": "Rediker Software",
       "position": "Senior Technical Writer",
-      "url": "",
+      "url": "https://www.rediker.com/",
       "startDate": "2021",
       "endDate": "2022",
       "summary": "Developed framework and documentation for net new education software from scratch. Distributed release notes and customer emails on new features, updates, and bug fixes. Evaluated and implemented customer feedback to enhance documentation readability and clarity.",
@@ -62,7 +62,7 @@
     {
       "name": "Amazon Web Services (AWS)",
       "position": "Senior Technical Writer",
-      "url": "",
+      "url": "https://aws.amazon.com/architecture/well-architected/",
       "startDate": "2022",
       "endDate": "Present",
       "summary": "Oversees all content production, review, and publishing for the AWS Well-Architected Framework, pillar guides, and lens whitepapers. Designed docs-as-code infrastructure for documentation writing and editing. Conducts market and SEO research, and generates high-level metrics reports.",
@@ -73,7 +73,7 @@
     {
       "institution": "University of Nevada, Reno",
       "location": "Reno, Nevada",
-      "url": "",
+      "url": "https://www.unr.edu/english",
       "area": "English Writing, minor in Teaching English as a Second Language",
       "studyType": "BA",
       "startDate": "2011",
@@ -142,25 +142,24 @@
   "languages": [
     {
       "language": "English",
-      "fluency": "Native speaker",
-      "icon": ""
+      "fluency": "Native speaker"
     }
   ],
   "references": [
     {
       "name": "Matt Cherouny",
       "icon": "fa-solid fa-laptop",
-      "reference": "Staff Manufacturing Systems Engineer at Tesla fa-paper-plane matt.cherouny@gmail.com"
+      "reference": "Staff Manufacturing Systems Engineer at Tesla (matt.cherouny@gmail.com)"
     },
     {
       "name": "Brett Couture",
-      "icon": "fa-solid  fa-lightbulb-o",
-      "reference": "Chief Technology Officer at Rediker fa-paper-plane brett.couture@gmail.com"
+      "icon": "fa-solid fa-lightulb",
+      "reference": "Chief Technology Officer at Rediker (brett.couture@gmail.com)"
     },
     {
       "name": "Rick Timkovich",
-      "icon": "fa-solid fa-pencil-square-o",
-      "reference": "Sr. Technical Writer at AWS fa-paper-plane rtimkovi@amazon.com"
+      "icon": "fa-solid fa-pencil",
+      "reference": "Sr. Technical Writer at AWS (rtimkovi@amazon.com)"
     }
   ]
 }
