@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Portfolios on Stewart Matzek</title>
+    <link>http://localhost:1313/portfolio/</link>
+    <description>Recent content in Portfolios on Stewart Matzek</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="http://localhost:1313/portfolio/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>portfolio</title>
+      <link>http://localhost:1313/portfolio/portfolio/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/portfolio/portfolio/</guid>
+      <description>&lt;p&gt;Portfolio goes here&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

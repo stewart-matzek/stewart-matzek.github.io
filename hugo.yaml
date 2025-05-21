@@ -1,0 +1,25 @@
+baseURL: https://example.org/
+languageCode: en-us
+title: Stewart Matzek
+theme: archie
+copyright: © Stewart Matzek
+
+# Enable raw HTML in Markdown
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+params:
+  profilePicture: "/images/prof_pic.jpg"  # Place your profile picture in static/images/
+  custom_css:
+    - css/resume.css
+    - css/custom.css
+  social:
+    - name: Email
+      icon: "mail"
+      url: "mailto:sh.matzek@gmail.com"
+    - name: LinkedIn
+      icon: "linkedin"
+      url: "https://linkedin.com/in/stewart-matzek"
+sectionPagesMenu: main

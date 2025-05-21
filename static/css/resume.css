@@ -1,0 +1,170 @@
+.resume {
+  font-family: 'Hack Nerd Font', monospace;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Make sure all text in the resume uses Hack Nerd Font */
+.resume p, .resume h1, .resume h2, .resume h3, .resume h4, .resume h5, .resume h6, .resume span, .resume div {
+  font-family: 'Hack Nerd Font', monospace;
+}
+
+.resume-section {
+  margin-bottom: 2rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #eee;
+}
+
+.work-item, .education-item, .skill-item {
+  margin-bottom: 1.5rem;
+}
+
+.resume-highlights {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 0.5rem;
+}
+
+.resume-highlights .highlight {
+  background: #f1f1f1;
+  color: black;
+  padding: 0.3rem 0.6rem;
+  border-radius: 4px;
+  font-size: 0.9rem;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+.profiles ul {
+  list-style: none;
+  padding-left: 0;
+  display: flex;
+  gap: 1rem;
+}
+
+/* Fix for LinkedIn link */
+.profiles ul li {
+  text-indent: 0;
+}
+
+.profiles ul li::before {
+  content: '';
+}
+
+.profiles li a {
+  text-decoration: none;
+  color: #3a7bd5;
+}
+
+.contact .email {
+  margin-right: 1rem;
+  position: relative;
+}
+
+.contact .email::after {
+  content: "";
+  position: absolute;
+  right: -0.7rem;
+  top: 0;
+  height: 100%;
+  width: 2px;
+  background-color: #ddd;
+}
+
+.skill-item .resume-highlights .highlight {
+  background: #f1f1f1;
+  border: none;
+}
+
+/* Make all links stand out */
+.resume a {
+  color: #3a7bd5;
+  text-decoration: none;
+  border-bottom: 1px dotted #3a7bd5;
+}
+
+.resume a:hover {
+  text-decoration: none;
+  border-bottom: 1px solid #3a7bd5;
+  background-color: transparent;
+  color: #1a5dc5;
+}
+
+/* Override the main site's link hover behavior for resume links */
+.resume a:hover {
+  background-color: transparent;
+  color: #1a5dc5;
+}
+
+.company-line {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 0.5rem;
+  gap: 0.5rem;
+}
+
+.company {
+  font-weight: 500;
+}
+
+.company-line .date {
+  position: relative;
+  padding-left: 1.6rem;
+  color: #666;
+  font-style: italic;
+}
+
+.company-line .date::before {
+  content: "|";
+  position: absolute;
+  left: 0.25rem;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #ddd;
+}
+
+/* Remove the standalone date paragraph */
+.work-item > .date, 
+.education-item > .date {
+  display: none;
+}
+
+/* Title area with download button */
+.title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.pdf-download {
+  display: flex;
+  align-items: center;
+  padding: 0.5rem 1rem;
+  background-color: #3a7bd5;
+  color: white !important; /* Force white text */
+  border-radius: 4px;
+  text-decoration: none !important;
+  font-weight: 500;
+  border: none !important;
+  transition: background-color 0.2s;
+}
+
+.pdf-download:hover {
+  background-color: #2a6ac5;
+  color: white !important;
+  border: none !important;
+  text-decoration: none !important;
+}
+
+.pdf-download svg {
+  margin-right: 0.5rem;
+  height: 1.2em;
+  width: 1.2em;
+  stroke: white; /* Ensure the SVG stroke is white */
+}
+
+
+
+

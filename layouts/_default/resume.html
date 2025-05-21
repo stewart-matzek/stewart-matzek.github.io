@@ -1,0 +1,105 @@
+{{ define "main" }}
+<main>
+  <article>
+    <div class="post-container">
+      <div class="post-content">
+        <div class="title">
+          <h1 class="title">{{ .Title }}</h1>
+          <a href="/files/stewart-matzek-resume.pdf" class="pdf-download" download>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+              <polyline points="7 10 12 15 17 10"></polyline>
+              <line x1="12" y1="15" x2="12" y2="3"></line>
+            </svg>
+            Download PDF
+          </a>
+        </div>
+        
+        <div class="resume">
+          <!-- Basic Information -->
+          <div class="resume-section basics">
+            <h2>{{ .Params.name }}</h2>
+            <p class="label">{{ .Params.label }}</p>
+            <p class="contact">
+              {{ with .Params.email }}<a href="mailto:{{ . }}" class="email">{{ . }}</a>{{ end }}
+              {{ with .Params.phone }}<a href="tel:{{ . | replaceRE "[^0-9]" "" }}" class="phone">{{ . }}</a>{{ end }}
+            </p>
+            <p class="summary">{{ .Params.summary }}</p>
+            
+            {{ if .Params.profiles }}
+            <div class="profiles">
+              <ul>
+                {{ range .Params.profiles }}
+                <li><a href="{{ .url }}" target="_blank">{{ .network }}</a></li>
+                {{ end }}
+              </ul>
+            </div>
+            {{ end }}
+          </div>
+
+          <!-- Work Experience -->
+          {{ if .Params.work }}
+          <div class="resume-section work">
+            <h3>Work Experience</h3>
+            {{ range .Params.work }}
+            <div class="work-item">
+              <h4>{{ .position }}</h4>
+              <p class="company-line">
+                <span class="company">{{ if .url }}<a href="{{ .url }}" target="_blank">{{ .name }}</a>{{ else }}{{ .name }}{{ end }}</span>
+                <span class="date">{{ .startDate }}{{ with .endDate }} - {{ . }}{{ else }} - Present{{ end }}</span>
+              </p>
+              <p class="summary">{{ .summary }}</p>
+              {{ if .highlights }}
+              <div class="resume-highlights">
+                {{ range .highlights }}
+                <span class="highlight">{{ . }}</span>
+                {{ end }}
+              </div>
+              {{ end }}
+            </div>
+            {{ end }}
+          </div>
+          {{ end }}
+
+          <!-- Education -->
+          {{ if .Params.education }}
+          <div class="resume-section education">
+            <h3>Education</h3>
+            {{ range .Params.education }}
+            <div class="education-item">
+              <h4>
+                {{ if .url }}<a href="{{ .url }}" target="_blank">{{ .institution }}</a>{{ else }}{{ .institution }}{{ end }}
+              </h4>
+              <p class="company-line">
+                <span class="degree">{{ .studyType }} in {{ .area }}</span>
+                <span class="date">{{ .startDate }} - {{ .endDate }}</span>
+              </p>
+            </div>
+            {{ end }}
+          </div>
+          {{ end }}
+
+          <!-- Skills -->
+          {{ if .Params.skills }}
+          <div class="resume-section skills">
+            <h3>Skills</h3>
+            {{ range .Params.skills }}
+            <div class="skill-item">
+              <h4>{{ .name }}</h4>
+              {{ if .keywords }}
+              <div class="resume-highlights">
+                {{ range .keywords }}
+                <span class="highlight">{{ . }}</span>
+                {{ end }}
+              </div>
+              {{ end }}
+            </div>
+            {{ end }}
+          </div>
+          {{ end }}
+        </div>
+      </div>
+    </div>
+  </article>
+</main>
+{{ end }}

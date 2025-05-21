@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>about on Stewart Matzek</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content in about on Stewart Matzek</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <copyright>© Stewart Matzek</copyright>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>portfolio</title>
+      <link>http://localhost:1313/portfolio/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/portfolio/</guid>
+      <description>&lt;p&gt;Portfolio goes here&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>resume</title>
+      <link>http://localhost:1313/resume/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/resume/</guid>
+      <description>Motivated technical writer with 10+ years of experience. Focused on creating clear, user-friendly, and accessible documentation in docs-as-code and agile environments.</description>
+    </item>
+  </channel>
+</rss>
