@@ -7,10 +7,6 @@ label: Senior Technical Writer
 email: sh.matzek@gmail.com
 phone: (702) 513-1360
 summary: Motivated technical writer with 10+ years of experience. Focused on creating clear, user-friendly, and accessible documentation in docs-as-code and agile environments.
-profiles:
-  - network: LinkedIn
-    username: stewart-matzek
-    url: https://linkedin.com/stewart-matzek
 work:
   - name: Amazon Web Services (AWS)
     position: Senior Technical Writer
@@ -57,7 +53,7 @@ education:
     endDate: 2015
 skills:
   - name: Docs-as-code
-    keywords: [Markdown, GitLab, GitHub, CI/CD, MkDocs, Docusaurus]
+    keywords: [Markdown, GitLab, GitHub, CI/CD, MkDocs, Docusaurus, Hugo]
   - name: Automation
     keywords: [Python, Amazon Q, GitLab pipelines]
   - name: Technical documentation

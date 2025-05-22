@@ -1,0 +1,38 @@
+{{ define "main" }}
+<main>
+  <article>
+    <div class="post-container">
+      <div class="post-content">
+        <div class="title">
+          <h1 class="title">{{ .Title }}</h1>
+        </div>
+        <div class="content">
+          {{ .Content }}
+          
+          {{ if .Params.documents }}
+          <div class="pdf-container">
+            <h3>Project Documents</h3>
+            <div class="document-list">
+              {{ range .Params.documents }}
+              <div class="document-item">
+                <h4>{{ .title }}</h4>
+                <iframe src="/pdfs/{{ .file }}#toolbar=0" class="pdf-viewer"></iframe>
+                <a href="/pdfs/{{ .file }}" class="pdf-download" download>Download {{ .title }}</a>
+              </div>
+              {{ end }}
+            </div>
+          </div>
+          {{ else if .Params.pdf }}
+          <!-- Backward compatibility for single PDF -->
+          <div class="pdf-container">
+            <h3>Project Document</h3>
+            <iframe src="/pdfs/{{ .Params.pdf }}#toolbar=0" class="pdf-viewer"></iframe>
+            <a href="/pdfs/{{ .Params.pdf }}" class="pdf-download" download>Download PDF</a>
+          </div>
+          {{ end }}
+        </div>
+      </div>
+    </div>
+  </article>
+</main>
+{{ end }}

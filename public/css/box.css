@@ -1,0 +1,29 @@
+body {
+  background-color: #e0dfd5; /* Light gray background for the page */
+}
+
+/* Target the main content container from the theme */
+.content {
+  background-color: #e8e9eb;
+  border: 3px solid #313638;
+  border-radius: 15px;
+  box-shadow: 0 7px 0px rgba(0, 0, 0, 0.1);
+  padding: 25px;
+  margin: 20px auto;
+}
+
+/* Remove the inner box around the Markdown content */
+.post-content .content {
+  background-color: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+/* Ensure header and footer remain outside the box */
+header, footer {
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}

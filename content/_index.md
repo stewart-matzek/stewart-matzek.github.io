@@ -4,7 +4,7 @@ title: about
 ---
 
 <div style="text-align: left; margin-bottom: 2rem;">
-  <img src="images/prof_pic.jpg" alt="Profile Picture" style="width: 150px; height: 150px; border-radius: 50%; object-fit: cover; border: 3px solid #3a7bd5;">
+  <img src="images/prof_pic.jpg" alt="Profile picture" style="width: 150px; height: 150px; border-radius: 50%; object-fit: cover; border: 3px solid #3a7bd5;">
 </div>
 
 Senior-level technical writer with 10+ years of experience in agile, fast-paced environments. Adept at communicating technical concepts

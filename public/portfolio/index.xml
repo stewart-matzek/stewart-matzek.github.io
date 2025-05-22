@@ -1,18 +1,33 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Portfolios on Stewart Matzek</title>
+    <title>portfolio on Stewart Matzek</title>
     <link>http://localhost:1313/portfolio/</link>
-    <description>Recent content in Portfolios on Stewart Matzek</description>
+    <description>Recent content in portfolio on Stewart Matzek</description>
     <generator>Hugo</generator>
     <language>en-us</language>
+    <copyright>© Stewart Matzek</copyright>
     <atom:link href="http://localhost:1313/portfolio/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>portfolio</title>
-      <link>http://localhost:1313/portfolio/portfolio/</link>
+      <title>AWS docs-as-code integration</title>
+      <link>http://localhost:1313/portfolio/project1/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/portfolio/portfolio/</guid>
-      <description>&lt;p&gt;Portfolio goes here&lt;/p&gt;</description>
+      <guid>http://localhost:1313/portfolio/project1/</guid>
+      <description>&lt;p&gt;I implemented an entirely new docs-as-code integration for the AWS Well-Architected content team, including internal documentation and training for writers unfamiliar with Git.&lt;/p&gt;&#xA;&lt;h2 id=&#34;project-overview&#34;&gt;Project Overview&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Created pillar guides and lens whitepapers&lt;/li&gt;&#xA;&lt;li&gt;Designed docs-as-code infrastructure&lt;/li&gt;&#xA;&lt;li&gt;Conducted market and SEO research&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;skills-used&#34;&gt;Skills Used&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Technical writing&lt;/li&gt;&#xA;&lt;li&gt;AWS services knowledge&lt;/li&gt;&#xA;&lt;li&gt;Docs-as-code&lt;/li&gt;&#xA;&lt;li&gt;Markdown&lt;/li&gt;&#xA;&lt;li&gt;Git&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;sample-document&#34;&gt;Sample Document&lt;/h2&gt;&#xA;&lt;p&gt;Below you can view and download a sample of the documentation created for this project.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>AWS Documentation Project</title>
+      <link>http://localhost:1313/portfolio/project2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/portfolio/project2/</guid>
+      <description>&lt;h1 id=&#34;aws-documentation-project&#34;&gt;AWS Documentation Project&lt;/h1&gt;&#xA;&lt;p&gt;This project involved creating comprehensive documentation for the AWS Well-Architected Framework.&lt;/p&gt;&#xA;&lt;h2 id=&#34;project-overview&#34;&gt;Project Overview&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Created pillar guides and lens whitepapers&lt;/li&gt;&#xA;&lt;li&gt;Designed docs-as-code infrastructure&lt;/li&gt;&#xA;&lt;li&gt;Conducted market and SEO research&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;skills-used&#34;&gt;Skills Used&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Technical writing&lt;/li&gt;&#xA;&lt;li&gt;AWS services knowledge&lt;/li&gt;&#xA;&lt;li&gt;Docs-as-code&lt;/li&gt;&#xA;&lt;li&gt;Markdown&lt;/li&gt;&#xA;&lt;li&gt;Git&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;sample-document&#34;&gt;Sample Document&lt;/h2&gt;&#xA;&lt;p&gt;Below you can view and download a sample of the documentation created for this project.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Digital River API documentation</title>
+      <link>http://localhost:1313/portfolio/project3/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/portfolio/project3/</guid>
+      <description>&lt;p&gt;I researched, presented, and implemented an entirely new documentation system to document Digital River&amp;rsquo;s new headless ecommerce API.&lt;/p&gt;&#xA;&lt;h2 id=&#34;problem&#34;&gt;Problem&lt;/h2&gt;&#xA;&lt;p&gt;Initially, Digital River provided a full-stack ecommerce system, where the company would handle everything on the implementation side. This was good for some customers, but other customers expressed a desire to develop their own systems or to use Digital River&amp;rsquo;s services alongside other existing software.&lt;/p&gt;&#xA;&lt;h2 id=&#34;solution&#34;&gt;Solution&lt;/h2&gt;&#xA;&lt;p&gt;Digital River released the Digital River API, which developers could use to implement a variety of ecommerce functions within their existing infrastructure like payments, SKUs, and shopping carts.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
