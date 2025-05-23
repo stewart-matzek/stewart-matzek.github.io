@@ -15,21 +15,19 @@ documents:
 
 I implemented an entirely new docs-as-code integration for the AWS Well-Architected content team, including internal documentation and training for writers unfamiliar with Git.
 
-## Problem
+## Project overview
 
+### Problem
 The documentation workflow relied heavily on Word documents, which were uploaded into an imperfect version control system. Oftentimes, authors worked on local versions of the documents independently, leading to multiple document mismatch scenarios. 
 
 A large amount of manual work is performed to reconcile these versions of the documents.
 
-## Solution
-
+### Solution
 Adopt a docs-as-code approach to content authoring. 
 
 Author all content in Markdown, and use Gitlab to store our content, manage versions, perform reviews, and tech edit content. 
 
 I created an infrastructure for each of the Well-Architected Framework pillars, scripting to pull down existing documentation files as Markdown, and a training and documentation ecosystem for non-technical authors to learn Git and Gitlab. 
-
-## Project overview
 
 Our docs-as-code approach needed to have two essential parts:
 

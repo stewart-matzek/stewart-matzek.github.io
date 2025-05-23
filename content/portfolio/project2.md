@@ -9,28 +9,28 @@ documents:
 
 I worked with SMEs to create net-new documentation for the AWS Well-Architected Tool's Jira integration.
 
-## Problem
-
-
-
-## Solution
-
-
-
 ## Project overview
 
+The Well-Architected Tool released a new feature to integrate with Jira, which would create and update tickets based on workload remediation.
 
+I worked with the engineering team to learn about and document the new feature, including thorough testing on Jira, multiple rounds of documentation review, and feedback on UI copy and design.
 
 ## Project timeline
 
-- Created pillar guides and lens whitepapers
-- Designed docs-as-code infrastructure
-- Conducted market and SEO research
+- Gathered requirements for new feature
+- Attended multiple stakeholder and kickoff meetings
+- Met with SMEs and engineers multiple times to document new features and functionality
+- Created and staged draft documentation
+- Conducted multiple rounds of documentation feedback
+- Provided UI suggestions and wrote UI copy
+- Provided editorial feedback on release blog and enablement materials
+- Acquired signoff from all stakeholders
+- Launched feature documentation to public
 
 ## Skills used
 
 - Technical writing
 - AWS services knowledge
-- Docs-as-code
-- Markdown
-- Git
+- XML
+- Work with SMEs
+- Jira

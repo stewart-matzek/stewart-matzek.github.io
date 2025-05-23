@@ -15,15 +15,15 @@ documents:
 
 I researched, presented, and implemented an entirely new documentation system to document Digital River's new headless ecommerce API. 
 
-## Problem
+## Project overview
+
+### Problem
 
 Initially, Digital River provided a full-stack ecommerce system, where the company would handle everything on the implementation side. This was good for some customers, but other customers expressed a desire to develop their own systems or to use Digital River's services alongside other existing software. 
 
-## Solution
+### Solution
 
 Digital River released the Digital River API, which developers could use to implement a variety of ecommerce functions within their existing infrastructure like payments, SKUs, and shopping carts. 
-
-## Project overview
 
 This new API called for two new parts of Digital River's docs ecosystem:
 
