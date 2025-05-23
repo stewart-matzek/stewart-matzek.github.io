@@ -1,4 +1,7 @@
-/* Global font override for Hack Nerd Font */
-html, body, p, h1, h2, h3, h4, h5, h6, span, div, a, li, ul, ol, table, code, pre {
-  font-family: 'Hack Nerd Font', monospace !important;
+:root{
+--maincolor: #f06543;
+--bordercl:dodgerblue;
+--callouctcolor:#f06543;
+--hovercolor:#f09d51;
+--darkMaincolor: #f06543;
 }
