@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Abouts on Stewart Matzek</title>
+    <link>http://localhost:1313/about/</link>
+    <description>Recent content in Abouts on Stewart Matzek</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="http://localhost:1313/about/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>about</title>
+      <link>http://localhost:1313/about/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/about/about/</guid>
+      <description>&lt;p&gt;Senior-level technical writer with 10+ years of experience in agile, fast-paced environments. Adept at communicating technical concepts&#xA;clearly and precisely. Able to quickly learn new technologies and subject matters and communicates them for multivariate audiences.&#xA;Experienced with docs-as-code and CI/CD documentation ideologies. Always curious about ways to improve and grow.&lt;/p&gt;&#xA;&lt;p&gt;Sound like someone you want on your team? Hit me up! We can talk shop or just wax poetic about how much we like our pets.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

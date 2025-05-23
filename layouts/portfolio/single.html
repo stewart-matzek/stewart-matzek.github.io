@@ -1,0 +1,74 @@
+{{ define "main" }}
+<main>
+  <article>
+    <div class="post-container">
+      <div class="post-content">
+        <div class="title">
+          <h1 class="title">{{ .Title }}</h1>
+        </div>
+        <div class="content">
+          {{ .Content }}
+          
+          {{ if .Params.documents }}
+          <div class="document-container">
+            <h3>Project samples</h3>
+            <div class="document-grid">
+              {{ range .Params.documents }}
+              <div class="document-box">
+                {{ if eq .type "pdf" }}
+                <!-- PDF Preview Box -->
+                <a href="/pdfs/{{ .file }}" target="_blank" class="document-link">
+                  <div class="document-preview pdf-preview">
+                    <div class="file-icon">PDF</div>
+                  </div>
+                  <h4>{{ .title }}</h4>
+                  <span class="document-action">View PDF</span>
+                </a>
+                
+                {{ else if eq .type "image" }}
+                <!-- Image Preview Box -->
+                <a href="/images/portfolio/{{ .file }}" target="_blank" class="document-link">
+                  <div class="document-preview">
+                    <img src="/images/portfolio/{{ .file }}" alt="{{ .title }}" class="thumbnail">
+                  </div>
+                  <h4>{{ .title }}</h4>
+                  <span class="document-action">View Image</span>
+                </a>
+                
+                {{ else }}
+                <!-- Default Preview Box -->
+                <a href="/files/{{ .file }}" download class="document-link">
+                  <div class="document-preview file-preview">
+                    <div class="file-icon">FILE</div>
+                  </div>
+                  <h4>{{ .title }}</h4>
+                  <span class="document-action">Download</span>
+                </a>
+                {{ end }}
+              </div>
+              {{ end }}
+            </div>
+          </div>
+          {{ else if .Params.pdf }}
+          <!-- Backward compatibility for single PDF -->
+          <div class="document-container">
+            <h3>Project Document</h3>
+            <div class="document-grid">
+              <div class="document-box">
+                <a href="/pdfs/{{ .Params.pdf }}" target="_blank" class="document-link">
+                  <div class="document-preview pdf-preview">
+                    <div class="file-icon">PDF</div>
+                  </div>
+                  <h4>Project Document</h4>
+                  <span class="document-action">View PDF</span>
+                </a>
+              </div>
+            </div>
+          </div>
+          {{ end }}
+        </div>
+      </div>
+    </div>
+  </article>
+</main>
+{{ end }}
