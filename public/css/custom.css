@@ -1,7 +1,13 @@
+@import url('https://cdn.jsdelivr.net/npm/hack-font@3/build/web/hack.css');
+
 :root{
 --maincolor: #f06543;
 --bordercl:dodgerblue;
 --callouctcolor:#f06543;
 --hovercolor:#f09d51;
 --darkMaincolor: #f06543;
+}
+
+body {
+    font-family: Hack, monospace;
 }

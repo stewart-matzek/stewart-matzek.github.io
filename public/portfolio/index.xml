@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>portfolio on Stewart Matzek</title>
-    <link>http://localhost:1313/portfolio/</link>
+    <link>https://stewart-matzek.github.io/portfolio/</link>
     <description>Recent content in portfolio on Stewart Matzek</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>© Stewart Matzek</copyright>
-    <atom:link href="http://localhost:1313/portfolio/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://stewart-matzek.github.io/portfolio/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>AWS docs-as-code integration</title>
-      <link>http://localhost:1313/portfolio/project1/</link>
+      <link>https://stewart-matzek.github.io/portfolio/project1/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/portfolio/project1/</guid>
+      <guid>https://stewart-matzek.github.io/portfolio/project1/</guid>
       <description>&lt;p&gt;I implemented an entirely new docs-as-code integration for the AWS Well-Architected content team, including internal documentation and training for writers unfamiliar with Git.&lt;/p&gt;&#xA;&lt;h2 id=&#34;project-overview&#34;&gt;Project overview&lt;/h2&gt;&#xA;&lt;h3 id=&#34;problem&#34;&gt;Problem&lt;/h3&gt;&#xA;&lt;p&gt;The documentation workflow relied heavily on Word documents, which were uploaded into an imperfect version control system. Authors often worked independently on local versions of the documents, leading to document mismatch scenarios.&lt;/p&gt;&#xA;&lt;p&gt;Tech writers and program managers perform a large amount of manual work to reconcile these versions of the documents.&lt;/p&gt;</description>
     </item>
     <item>
       <title>AWS Well-Architected Tool Jira connector</title>
-      <link>http://localhost:1313/portfolio/project2/</link>
+      <link>https://stewart-matzek.github.io/portfolio/project2/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/portfolio/project2/</guid>
+      <guid>https://stewart-matzek.github.io/portfolio/project2/</guid>
       <description>&lt;p&gt;I worked with SMEs to create net-new documentation for the AWS Well-Architected Tool&amp;rsquo;s Jira integration.&lt;/p&gt;&#xA;&lt;h2 id=&#34;project-overview&#34;&gt;Project overview&lt;/h2&gt;&#xA;&lt;p&gt;The Well-Architected Tool released a new feature to integrate with Jira, which creates and updates tickets based on workload progress.&lt;/p&gt;&#xA;&lt;p&gt;I worked with the engineering team to learn about and document the new feature, including thorough testing on Jira, multiple rounds of documentation review, and feedback on UI copy and design.&lt;/p&gt;&#xA;&lt;h2 id=&#34;project-timeline&#34;&gt;Project timeline&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Gathered requirements for new feature&lt;/li&gt;&#xA;&lt;li&gt;Attended multiple stakeholder and kickoff meetings&lt;/li&gt;&#xA;&lt;li&gt;Met with SMEs and engineers multiple times to document new features and functionality&lt;/li&gt;&#xA;&lt;li&gt;Tested the feature with multiple Jira projects&lt;/li&gt;&#xA;&lt;li&gt;Created and staged draft documentation&lt;/li&gt;&#xA;&lt;li&gt;Conducted multiple rounds of documentation feedback&lt;/li&gt;&#xA;&lt;li&gt;Provided UI suggestions and wrote UI copy&lt;/li&gt;&#xA;&lt;li&gt;Provided editorial feedback on release blog and enablement materials&lt;/li&gt;&#xA;&lt;li&gt;Acquired signoff from all stakeholders&lt;/li&gt;&#xA;&lt;li&gt;Launched feature documentation to public&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;skills-used&#34;&gt;Skills used&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Technical writing&lt;/li&gt;&#xA;&lt;li&gt;AWS services knowledge&lt;/li&gt;&#xA;&lt;li&gt;XML&lt;/li&gt;&#xA;&lt;li&gt;Work with SMEs&lt;/li&gt;&#xA;&lt;li&gt;Jira&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
     <item>
       <title>Digital River API documentation</title>
-      <link>http://localhost:1313/portfolio/project3/</link>
+      <link>https://stewart-matzek.github.io/portfolio/project3/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/portfolio/project3/</guid>
+      <guid>https://stewart-matzek.github.io/portfolio/project3/</guid>
       <description>&lt;p&gt;I researched, presented, and implemented an entirely new documentation system to document Digital River&amp;rsquo;s new headless ecommerce API.&lt;/p&gt;&#xA;&lt;h2 id=&#34;project-overview&#34;&gt;Project overview&lt;/h2&gt;&#xA;&lt;h3 id=&#34;problem&#34;&gt;Problem&lt;/h3&gt;&#xA;&lt;p&gt;Initially, Digital River provided a full-stack ecommerce system, where the company would handle everything on the implementation side.&lt;/p&gt;&#xA;&lt;p&gt;This approach worked for some customers, but other customers expressed a desire to develop their own systems or to use Digital River&amp;rsquo;s services alongside their existing software.&lt;/p&gt;&#xA;&lt;h3 id=&#34;solution&#34;&gt;Solution&lt;/h3&gt;&#xA;&lt;p&gt;Digital River released the Digital River API, which developers could use to implement a variety of ecommerce functions within their existing infrastructure like payments, SKUs, and shopping carts.&lt;/p&gt;</description>
     </item>
   </channel>
