@@ -18,16 +18,16 @@ I implemented an entirely new docs-as-code integration for the AWS Well-Architec
 ## Project overview
 
 ### Problem
-The documentation workflow relied heavily on Word documents, which were uploaded into an imperfect version control system. Oftentimes, authors worked on local versions of the documents independently, leading to multiple document mismatch scenarios. 
+The documentation workflow relied heavily on Word documents, which were uploaded into an imperfect version control system. Authors often worked independently on local versions of the documents, leading to document mismatch scenarios. 
 
-A large amount of manual work is performed to reconcile these versions of the documents.
+Tech writers and program managers perform a large amount of manual work to reconcile these versions of the documents.
 
 ### Solution
 Adopt a docs-as-code approach to content authoring. 
 
-Author all content in Markdown, and use Gitlab to store our content, manage versions, perform reviews, and tech edit content. 
+Author all content in Markdown, and use Gitlab to store content, manage versions, perform reviews, and tech edit content. 
 
-I created an infrastructure for each of the Well-Architected Framework pillars, scripting to pull down existing documentation files as Markdown, and a training and documentation ecosystem for non-technical authors to learn Git and Gitlab. 
+I created an infrastructure for each of the Well-Architected Framework pillars, wrote a script to pull down existing documentation files as Markdown, and designed a training and documentation ecosystem for non-technical authors to learn Git and Gitlab. 
 
 Our docs-as-code approach needed to have two essential parts:
 
@@ -36,14 +36,14 @@ Our docs-as-code approach needed to have two essential parts:
 
 Gitlab solved both of these issues: 
 
-* We can use _merge requests_ as centralized tickets to perform SME review, gather feedback, and implement tech edits before merging into versioned branches. 
-* Because of its GitHub-style repository structure, we can create template repositories, allowing authors to easily fork them for new whitepapers
+* We use _merge requests_ as centralized tickets to perform SME review, gather feedback, and implement tech edits before merging into versioned branches
+* Because of its GitHub-style repository structure, we created template repositories that allow authors to easily fork them for new whitepapers
 
 ## Project timeline
 
 - Researched docs-as-code solutions available within AWS (decided on Gitlab)
 - Wrote one-page document to support a new docs-as-code approach
-- Created initial Gitlab repositories as proof-of-concept
+- Created initial Gitlab repository as proof-of-concept
 - Used this approach for one documentation release to demonstrate efficiency
 - Migrated the rest of our in-progress documentation to Gitlab
 - Created template files for other documentation types as forkable repositories

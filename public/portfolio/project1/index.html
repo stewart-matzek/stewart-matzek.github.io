@@ -59,12 +59,12 @@
           <p>I implemented an entirely new docs-as-code integration for the AWS Well-Architected content team, including internal documentation and training for writers unfamiliar with Git.</p>
 <h2 id="project-overview">Project overview</h2>
 <h3 id="problem">Problem</h3>
-<p>The documentation workflow relied heavily on Word documents, which were uploaded into an imperfect version control system. Oftentimes, authors worked on local versions of the documents independently, leading to multiple document mismatch scenarios.</p>
-<p>A large amount of manual work is performed to reconcile these versions of the documents.</p>
+<p>The documentation workflow relied heavily on Word documents, which were uploaded into an imperfect version control system. Authors often worked independently on local versions of the documents, leading to document mismatch scenarios.</p>
+<p>Tech writers and program managers perform a large amount of manual work to reconcile these versions of the documents.</p>
 <h3 id="solution">Solution</h3>
 <p>Adopt a docs-as-code approach to content authoring.</p>
-<p>Author all content in Markdown, and use Gitlab to store our content, manage versions, perform reviews, and tech edit content.</p>
-<p>I created an infrastructure for each of the Well-Architected Framework pillars, scripting to pull down existing documentation files as Markdown, and a training and documentation ecosystem for non-technical authors to learn Git and Gitlab.</p>
+<p>Author all content in Markdown, and use Gitlab to store content, manage versions, perform reviews, and tech edit content.</p>
+<p>I created an infrastructure for each of the Well-Architected Framework pillars, wrote a script to pull down existing documentation files as Markdown, and designed a training and documentation ecosystem for non-technical authors to learn Git and Gitlab.</p>
 <p>Our docs-as-code approach needed to have two essential parts:</p>
 <ol>
 <li>We needed a solution to allow multiple different stakeholder groups (SMEs, guidance leads, and tech writers) to review content in the same place without working on local copies of documentation</li>
@@ -72,14 +72,14 @@
 </ol>
 <p>Gitlab solved both of these issues:</p>
 <ul>
-<li>We can use <em>merge requests</em> as centralized tickets to perform SME review, gather feedback, and implement tech edits before merging into versioned branches.</li>
-<li>Because of its GitHub-style repository structure, we can create template repositories, allowing authors to easily fork them for new whitepapers</li>
+<li>We use <em>merge requests</em> as centralized tickets to perform SME review, gather feedback, and implement tech edits before merging into versioned branches</li>
+<li>Because of its GitHub-style repository structure, we created template repositories that allow authors to easily fork them for new whitepapers</li>
 </ul>
 <h2 id="project-timeline">Project timeline</h2>
 <ul>
 <li>Researched docs-as-code solutions available within AWS (decided on Gitlab)</li>
 <li>Wrote one-page document to support a new docs-as-code approach</li>
-<li>Created initial Gitlab repositories as proof-of-concept</li>
+<li>Created initial Gitlab repository as proof-of-concept</li>
 <li>Used this approach for one documentation release to demonstrate efficiency</li>
 <li>Migrated the rest of our in-progress documentation to Gitlab</li>
 <li>Created template files for other documentation types as forkable repositories</li>

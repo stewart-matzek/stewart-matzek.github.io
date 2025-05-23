@@ -19,7 +19,9 @@ I researched, presented, and implemented an entirely new documentation system to
 
 ### Problem
 
-Initially, Digital River provided a full-stack ecommerce system, where the company would handle everything on the implementation side. This was good for some customers, but other customers expressed a desire to develop their own systems or to use Digital River's services alongside other existing software. 
+Initially, Digital River provided a full-stack ecommerce system, where the company would handle everything on the implementation side. 
+
+This approach worked for some customers, but other customers expressed a desire to develop their own systems or to use Digital River's services alongside their existing software. 
 
 ### Solution
 
@@ -27,8 +29,8 @@ Digital River released the Digital River API, which developers could use to impl
 
 This new API called for two new parts of Digital River's docs ecosystem:
 
-1. A new docs solution which allowed for multiple "sites" to separate the older full-stack solution from the new API
-1. An entirely new developer experience, with focused language towards engineers and implementation stakeholders
+1. A new docs solution that allowed for multiple "sites" to separate the older full-stack solution from the new API
+1. An entirely new documentation experience with focused language towards developers
 
 ## Project timeline
 
