@@ -1,29 +1,36 @@
 ---
-title: "AWS Documentation Project"
-description: "Technical documentation for AWS Well-Architected Framework"
+title: "AWS Well-Architected Tool Jira connector"
+description: "Tool feature documentation for Jira integration"
 documents:
-  - title: ""
-    file: ""
+  - title: "AWS WA Tool Jira guide"
+    file: "aws-tool-jira-guide.pdf"
+    type: "pdf"
 ---
 
-# AWS Documentation Project
+I worked with SMEs to create net-new documentation for the AWS Well-Architected Tool's Jira integration.
 
-This project involved creating comprehensive documentation for the AWS Well-Architected Framework.
+## Problem
 
-## Project Overview
+
+
+## Solution
+
+
+
+## Project overview
+
+
+
+## Project timeline
 
 - Created pillar guides and lens whitepapers
 - Designed docs-as-code infrastructure
 - Conducted market and SEO research
 
-## Skills Used
+## Skills used
 
 - Technical writing
 - AWS services knowledge
 - Docs-as-code
 - Markdown
 - Git
-
-## Sample Document
-
-Below you can view and download a sample of the documentation created for this project.

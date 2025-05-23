@@ -4,10 +4,13 @@ description: "New developer documentation and experience for ecommerce API"
 documents:
   - title: "Getting started guide"
     file: "dr-getting-started.pdf"
+    type: "pdf"
   - title: "API structure"
     file: "dr-api-2.pdf"
+    type: "pdf"
   - title: "SKUs documentation"
     file: "dr-skus.pdf"
+    type: "pdf"
 ---
 
 I researched, presented, and implemented an entirely new documentation system to document Digital River's new headless ecommerce API. 

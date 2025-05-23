@@ -57,33 +57,93 @@
         </div>
         <div class="content">
           <p>I implemented an entirely new docs-as-code integration for the AWS Well-Architected content team, including internal documentation and training for writers unfamiliar with Git.</p>
-<h2 id="project-overview">Project Overview</h2>
+<h2 id="problem">Problem</h2>
+<p>The documentation workflow relied heavily on Word documents, which were uploaded into an imperfect version control system. Oftentimes, authors worked on local versions of the documents independently, leading to multiple document mismatch scenarios.</p>
+<p>A large amount of manual work is performed to reconcile these versions of the documents.</p>
+<h2 id="solution">Solution</h2>
+<p>Adopt a docs-as-code approach to content authoring.</p>
+<p>Author all content in Markdown, and use Gitlab to store our content, manage versions, perform reviews, and tech edit content.</p>
+<p>I created an infrastructure for each of the Well-Architected Framework pillars, scripting to pull down existing documentation files as Markdown, and a training and documentation ecosystem for non-technical authors to learn Git and Gitlab.</p>
+<h2 id="project-overview">Project overview</h2>
+<p>Our docs-as-code approach needed to have two essential parts:</p>
+<ol>
+<li>We needed a solution to allow multiple different stakeholder groups (SMEs, guidance leads, and tech writers) to review content in the same place without working on local copies of documentation</li>
+<li>We needed to provide templates that were easy to copy into new repositories for new documents and whitepapers</li>
+</ol>
+<p>Gitlab solved both of these issues:</p>
 <ul>
-<li>Created pillar guides and lens whitepapers</li>
-<li>Designed docs-as-code infrastructure</li>
-<li>Conducted market and SEO research</li>
+<li>We can use <em>merge requests</em> as centralized tickets to perform SME review, gather feedback, and implement tech edits before merging into versioned branches.</li>
+<li>Because of its GitHub-style repository structure, we can create template repositories, allowing authors to easily fork them for new whitepapers</li>
 </ul>
-<h2 id="skills-used">Skills Used</h2>
+<h2 id="project-timeline">Project timeline</h2>
 <ul>
-<li>Technical writing</li>
-<li>AWS services knowledge</li>
+<li>Researched docs-as-code solutions available within AWS (decided on Gitlab)</li>
+<li>Wrote one-page document to support a new docs-as-code approach</li>
+<li>Created initial Gitlab repositories as proof-of-concept</li>
+<li>Used this approach for one documentation release to demonstrate efficiency</li>
+<li>Migrated the rest of our in-progress documentation to Gitlab</li>
+<li>Created template files for other documentation types as forkable repositories</li>
+<li>Created CI/CD Gitlab pipelines that automatically convert documentation to requisite end XML format on merge to main</li>
+<li>Wrote documentation to train content creators on Git ideology and how to use Gitlab</li>
+</ul>
+<h2 id="skills-used">Skills used</h2>
+<ul>
 <li>Docs-as-code</li>
 <li>Markdown</li>
+<li>Gitlab</li>
+<li>CI/CD</li>
 <li>Git</li>
+<li>Template design</li>
+<li>Stakeholder consensus</li>
+<li>Training documentation</li>
 </ul>
-<h2 id="sample-document">Sample Document</h2>
-<p>Below you can view and download a sample of the documentation created for this project.</p>
 
           
           
-          <div class="pdf-container">
-            <h3>Project Documents</h3>
-            <div class="document-list">
+          <div class="document-container">
+            <h3>Project samples</h3>
+            <div class="document-grid">
               
-              <div class="document-item">
-                <h4></h4>
-                <iframe src="/pdfs/#toolbar=0" class="pdf-viewer"></iframe>
-                <a href="/pdfs/" class="pdf-download" download>Download </a>
+              <div class="document-box">
+                
+                
+                <a href="/pdfs/aws-gitlab-contributors-guide.pdf" target="_blank" class="document-link">
+                  <div class="document-preview pdf-preview">
+                    <div class="file-icon">PDF</div>
+                  </div>
+                  <h4>Gitlab contributor guide</h4>
+                  <span class="document-action">View PDF</span>
+                </a>
+                
+                
+              </div>
+              
+              <div class="document-box">
+                
+                
+                <a href="/images/portfolio/aws-gitlab-setup-2.png" target="_blank" class="document-link">
+                  <div class="document-preview">
+                    <img src="/images/portfolio/aws-gitlab-setup-2.png" alt="Gitlab repository" class="thumbnail">
+                  </div>
+                  <h4>Gitlab repository</h4>
+                  <span class="document-action">View Image</span>
+                </a>
+                
+                
+              </div>
+              
+              <div class="document-box">
+                
+                
+                <a href="/images/portfolio/aws-gitlab-setup-1.png" target="_blank" class="document-link">
+                  <div class="document-preview">
+                    <img src="/images/portfolio/aws-gitlab-setup-1.png" alt="Gitlab template" class="thumbnail">
+                  </div>
+                  <h4>Gitlab template</h4>
+                  <span class="document-action">View Image</span>
+                </a>
+                
+                
               </div>
               
             </div>
