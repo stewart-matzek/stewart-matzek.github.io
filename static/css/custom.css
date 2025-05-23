@@ -8,6 +8,14 @@
 --darkMaincolor: #f06543;
 }
 
+html {
+    font-family: 'Hack', monospace !important;
+}
+
 body {
-    font-family: Hack, monospace;
+    font-family: 'Hack', monospace !important;
+}
+
+p {
+    font-family: 'Hack', monospace !important;
 }
